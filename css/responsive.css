@@ -1,0 +1,176 @@
+.slicknav_menu
+{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    
+    .slider{
+        margin-top: 112px;
+    }
+    
+    header{
+        margin-top: -112px;
+        background-color: #162252;
+    }
+    
+    #menu{
+        display: none; 
+    }
+    
+
+    .slicknav_menu{
+        display: inline-block;
+        position: fixed;
+        z-index: 1000;
+        right: 0px;
+        background: transparent;
+        margin-top: -117px;
+      
+    }
+    
+    .slicknav_btn{
+        background-color: red;
+        margin: 35px 30px 0 0;
+      
+    }
+    
+    .slicknav_nav{
+        background-color: #162252;
+        width: 200px;
+    }
+    
+    .slicknav_nav li{
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+    
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        transition: all 0.5s ease-in;
+    }
+    
+    .slicknav_nav li a:hover{
+        color: red;
+        background: transparent;
+        text-decoration: none;
+        
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .image-gallery{
+        grid-template-areas: 
+             'img-1 img-1 img-2 img-2'
+             'img-1 img-1 img-3 img-3'
+             'img-4 img-4 img-5 img-5'
+             'img-6 img-7 img-7 img-7'
+             'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a{
+        height: 20rem;
+       
+        
+    }
+    .img-1{
+        min-height: 41.5rem;
+    }
+    .img-6{
+        min-height: 20.0rem;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .image-gallery{
+        grid-template-areas: 
+             'img-1 img-1 img-1 img-1'
+             'img-2 img-2 img-2 img-2'
+             'img-3 img-3 img-3 img-3'
+             'img-4 img-4 img-4 img-4'
+             'img-5 img-5 img-5 img-5'
+             'img-6 img-6 img-6 img-6'
+             'img-7 img-7 img-7 img-7'
+             'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a,
+    .img-1,
+    .img-6{
+        min-height: 30rem;
+        min-height: 30rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 350px){
+    .slider a.btn{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
